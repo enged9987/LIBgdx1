@@ -20,7 +20,7 @@ public class Gdxevent extends ApplicationAdapter implements InputProcessor{
              	img = new Texture("badlogic.jpg");
             	sprite = new Sprite(img);
             	sprite.setPosition(Gdx.graphics.getWidth()/2 - img.getWidth()/2, Gdx.graphics.getHeight()/2 - img.getHeight()/2);
-           	 
+           	sprite.setScale(1.5f);
            	 
             	Gdx.input.setInputProcessor(this);
     }
